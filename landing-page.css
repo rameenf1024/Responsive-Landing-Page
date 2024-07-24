@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root
+{
+    --bg-color: rgb(251, 249, 245);
+    --second-bg-color: #2e1d04d3;
+    --third-bd-color: rgba(133, 115, 91, 0.868);
+    --text-color:white;
+
+    /* --main-color:#00ffee; */
+  
+
+}
+
+
+.top{
+    background-color: var(--bg-color);
+    
+}
+
+.navbar-brand{
+  font-family: 'Great Vibes', cursive;
+ 
+  font-weight: normal;
+  color: #8B4513; 
+  text-shadow: 2px 2px 5px #000; 
+ 
+  
+}
+
+.nav-item{
+
+font-family: 'Pasifico', cursive;
+
+}
+
+.nav-item:hover{
+  cursor: pointer;
+  border: solid 1px var(--second-bg-color);
+  border-radius: 5px;
+  transition: all 0.2s ease;
+  background-color: var(--third-bd-color);
+
+}
+
+.shop{
+background-color: var(--second-bg-color);
+border-radius: 5px;
+}
+
+.shop:hover{
+  cursor: pointer;
+  border: solid 1px var(--third-bd-color);
+  border-radius: 5px;
+  transition: all 0.2s ease;
+  background-color: var(--third-bd-color);
+}
+
+
+  .carousel-item {
+    height: 100vh; 
+    min-height: 400px;
+    background: no-repeat center center scroll;
+    background-size: cover;
+  }
+  .hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+  }
+
+  #shop{
+    background-color: var(--bg-color);
+  }
+  .card{
+    backdrop-filter: blur(25px);
+    box-shadow:0 0 10px rgba(43, 40, 33, 0.865);
+  }
+
+  .details{
+    background-color: var(--second-bg-color);
+    border-radius: 5px;
+    padding: 5px;
+   
+    }
+    
+    .details:hover{
+      cursor: pointer;
+      border: solid 1px var(--third-bd-color);
+      border-radius: 5px;
+      transition: all 0.2s ease;
+      background-color: var(--third-bd-color);
+    }
+
+    #about{
+
+    background-color: rgba(57, 47, 35, 0.616);
+    }
+
+    #gallery{
+      background-color: var(--bg-color);
+
+    }
+
+    #testimonials{
+      background-color: rgba(75, 51, 7, 0.322);
+    }
+
+    #blog{
+      background-color: var(--bg-color);
+    }
+
+    .read{
+      background-color: var(--second-bg-color);
+      border-radius: 5px;
+      padding: 5px;
+     
+      }
+      
+      .read:hover{
+        cursor: pointer;
+        border: solid 1px var(--third-bd-color);
+        border-radius: 5px;
+        transition: all 0.2s ease;
+        background-color: var(--third-bd-color);
+      }
+
+      #cta{
+        background-color: rgba(57, 47, 35, 0.616);
+      }
+
+      footer{
+        background-color: var(--bg-color);
+      }
